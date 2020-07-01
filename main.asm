@@ -49,7 +49,7 @@ main    bcf     STATUS,RP0		;bcf=bit clear file = poner en 0
         movwf   variable2
         bsf     STATUS,RP1              ; Paso al banco 3
         movlw   d'1'
-        movwf   variable2
+        movwf   variable3
 
 main_loop
         goto    main_loop               ; Super loop
